@@ -306,6 +306,10 @@ header .hero img {
   text-align: left;
  }
 
+ .staggered {
+  margin-top: 20px;
+ }
+
 /*Media Queries*/
 
 @media (min-width: 786px) {
