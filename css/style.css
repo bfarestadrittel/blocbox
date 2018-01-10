@@ -351,10 +351,43 @@ header .hero img {
 
 /*Media Queries*/
 
+@media (min-width: 350px) {
+  .one-half {
+    width: 46%;
+  }
+  #top-nav {
+    padding: 0;
+  }
+}
+
+@media (max-width: 685px) {
+  header .hero img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 @media (min-width: 786px) {
   .container {
     width: 750px;
   }
+  .one-half {
+    display: inline-block;
+    width: 46%;
+  }
+}
+
+@media (max-width: 992px) {
+  .staggered {
+    margin-top: 0;
+  }
+  .left-footer-block, .middle-footer-block, .right-footer-block {
+    display: block;
+  }
+  footer .logo {
+    padding: 0;
+  }
+  
 }
 
 @media (min-width: 992px) {
