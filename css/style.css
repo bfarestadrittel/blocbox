@@ -372,7 +372,6 @@ header .hero img {
     width: 750px;
   }
   .one-half {
-    display: inline-block;
     width: 46%;
   }
 }
