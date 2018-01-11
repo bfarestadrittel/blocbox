@@ -493,6 +493,14 @@ header .hero img {
   text-decoration: none;
 }
 
+.left-nav .items ul li a:active {
+  background-color: #fff;
+}
+
+a.active:link, a.active:visited {
+  background-color: #3498db;
+}
+
 .left-nav .items ul li a i {
   margin-right: 8px;
   text-align: center;
