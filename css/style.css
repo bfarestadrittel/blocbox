@@ -573,10 +573,10 @@ a.active:link, a.active:visited {
 
 .left-nav .settings a {
   color: #fff;
-  float: right;
+  float: left;
   margin-right: 10px;
   margin-top: 8px;
-  text-align: right;
+  text-align: left;
   text-decoration: none;
 }
 

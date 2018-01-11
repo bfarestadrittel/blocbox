@@ -13,18 +13,19 @@
     float: right;
     list-style: none;
 	padding: 0;
-	margin: 15px 0 0;
+	margin: 0;
 }
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
     position: absolute;
-    top: 100%;
+    top: auto;
+    bottom: 100%;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
-    min-width: 100px;
+    min-width: 145px;
     list-style: none;
-	padding: 20px;
+	padding: 5px;
 	margin: 20px 0 0;
 }
 .dropit .dropit-open .dropit-submenu { 
@@ -43,7 +44,7 @@
     display: block;
     width: 0;
     z-index: 1;
-    top: -8px;
+    bottom: -8px;
     right: 10px;
  }
 
