@@ -466,10 +466,10 @@ header .hero img {
 }
 
 .left-nav.open {
-  display:block;
-  width:280px;
   background: #34495E;
   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+  display:block;
+  width:280px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -482,16 +482,16 @@ header .hero img {
  }
 
 .hamburger {
-  position:absolute;
-  z-index: 1000;
   background:#34495E;
-  color:#FFF;
-  text-decoration: none;
-  font-size: 22px;
-  padding: 10px 15px;
   border-radius: 4px;
+  color:#FFF;
+  font-size: 22px;
   left: 5px;
+  padding: 10px 15px;
+  position:absolute;
+  text-decoration: none;
   top: 15px;
+  z-index: 1000;
  }
 
 .left-nav .site-logo {
